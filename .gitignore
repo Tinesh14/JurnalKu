@@ -1,15 +1,44 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle
+.gradle/
+**/build/
+!gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Local config
 local.properties
+.idea/
+*.iml
+
+# Keystore & signing
+*.jks
+*.keystore
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log & crash report
+*.log
+crashlytics.properties
+firebase/
+
+# Kotlin/Jetpack Compose generated
+*.kotlin_module
+*.cache
+*.cxx/
+
+# Fastlane (optional)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Android Studio
+.cxx/
+*.hprof
+captures/
+
+# APK/AAB output
+*.apk
+*.aab
